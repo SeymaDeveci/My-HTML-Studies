@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-tr">
+<head>
+<title>Sayfa Başlığı</title>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<h1>HTML Color</h1>
+<p style="background-color:pink;">Background Color</p>
+<p style="background-color:DodgerBlue;">Merhaba Şeyma</p>
+
+<p style="color:red;">Text Color</p>
+
+<p style="border:2px solid Violet;">Border Color</p>
+<p style="border:5px solid Violet;">Border Color</p>
+
+</body>
+</html>
