@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-tr">
+<head>
+<title>Sayfa Başlığı</title>
+<meta charset="UTF-8">
+<style>
+body {
+   background-image: url('https://imgyukle.com/f/2021/12/02/k30JGQ.png');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   }
+div{
+  font-size: 20px;
+  font-family: verdana;
+  }
+</style>
+</head>
+<body>
+
+<h2>Arka plan görüntüsünün kendini tekrarlamasını önlemek için background-repeat özelliğini no-repeat olarak ayarlayın.</h2>
+<h2>Arka plan görüntüsünün tüm öğeyi kaplamasını istiyorsanız, background-size özelliğini cover şekilde ayarlayabilirsiniz.</h2>
+<h2>Ayrıca, tüm öğenin her zaman kapsandığından emin olmak için background-attachment özelliğini fixed olarak ayarlayın.</h2>
+<h2>Bu şekilde, arka plan görüntüsü, herhangi bir esneme olmaksızın tüm öğeyi kaplayacaktır (görüntü orijinal orantılarını koruyacaktır).</h2>
+<div>
+You can specify background images
+for any visible HTML element.
+In this example, the background image
+is specified for a div element.
+By default, the background-image<br>
+will repeat itself in the direction(s)
+where it is smaller than the element
+where it is specified. (Try resizing the
+browser window to see how the
+background image behaves.
+</div>
+
+</body>
+</html>

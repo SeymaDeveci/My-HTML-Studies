@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-tr">
+<head>
+<title>Sayfa Başlığı</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<h1>HTML Links</h1>
+
+<p><a href="https://www.w3schools.com/">W3Schools.com</a> sitesini ziyaret et! <br>(Varsayılan olarak, bağlantılı sayfa mevcut tarayıcı penceresinde görüntülenecektir.)</p>
+<p>"target" attribute, bağlantılı belgenin nerede açılacağını belirtir.</p>
+<p>target="_self" -> Varsayılan. Belgeyi, tıklandığı pencerede/sekmede açar <a href="https://www.w3schools.com/" target="_self">W3Schools.com</a> örneğinde olduğu gibi</p>
+<p>target="_blank" -> Belgeyi yeni bir pencerede veya sekmede açar <a href="https://www.w3schools.com/" target="_blank">W3Schools.com</a> örneğinde olduğu gibi</p>
+<p>target="_parent" -> Belgeyi üst çerçevede açar <a href="https://www.w3schools.com/" target="_parent">W3Schools.com</a> örneğinde olduğu gibi</p>
+<p>target="_top" -> Belgeyi pencerenin tam gövdesinde açar <a href="https://www.w3schools.com/" target="_top">W3Schools.com</a> örneğinde olduğu gibi</p>
+<hr>
+<h2>Resmi bir link olarak kullanma</h2>
+<pre>Bir resmi bağlantı olarak kullanmak için "img" etiketini "a" etiketinin içine koymanız yeterlidir:</pre>
+<p>The image below is a link. Try to click on it.</p>
+<a href="https://www.w3schools.com/"><img src="C:\Users\Seyma\Pictures\w3schools.jpg" alt="Happy" style="width:42px;height:42px;"></a>
+<hr>
+<h2>Bir email adresi link olarak kullanma</h2>
+<p><a href="mailto:someone@example.com">Send email</a></p>
+<hr>
+<h2>Button u bir link olarak kullanma</h2>
+<p>Button a tıklandığında HTML Totorial Links kısmına gidecektir.</p>
+<button onclick="document.location='https://www.w3schools.com/html/html_links.asp'">HTML Tutorial</button>
+</body>
+</html>
