@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-tr">
+<head>
+<title>Sayfa Başlığı</title>
+<meta charset="UTF-8">
+
+<style>
+h1  {
+    color: blue;
+    font-family: verdana;
+	font-size: 180%;
+	border: 2px solid pink;
+	text-align: center;
+	padding: 30px;
+	}
+p   {
+     color: green;
+	 font-family: verdana;
+	 font-size: 160%;
+	 border: 2px solid orange;
+	 margin: 50px;
+	}
+</style>
+</head>
+<body>
+
+<pre>CSS padding: metin ve kenarlık arasında bir dolgu (boşluk) tanımlar.</pre>
+<pre>CSS margin: sınırın dışında bir kenar boşluğu (boşluk) tanımlar.</pre>
+
+<h1>Başlık 1</h1>
+<p>Paragraf 1</p>
+<h1>Başlık 2</h1>
+<p>Paragraf 2</p>
+<h1>Başlık 3</h1>
+<p>Paragraf 3</p>
+<h1>Başlık 4</h1>
+<p>Paragraf 4</p>
+<h1>Başlık 5</h1>
+<p>Paragraf 5</p>
+
+</body>
+</html>
